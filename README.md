@@ -22,7 +22,7 @@ This Android application demonstrates a point of sale (POS) system and several o
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/arsenhh-byte/MobileProgramming.git
     ```
 
 2. Open the project in Android Studio.
@@ -48,4 +48,49 @@ This Android application demonstrates a point of sale (POS) system and several o
     - Displays items using a RecyclerView.
 
 ## Project Structure
+pp/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── example/
+│ │ │ └── lab1/
+│ │ │ ├── MainActivity.java
+│ │ │ ├── POSActivity.java
+│ │ │ ├── Activity2.java
+│ │ │ ├── Activity3.java
+│ │ │ ├── Activity4.java
+│ │ │ └── RecyclerViewAdapter.java
+│ │ ├── res/
+│ │ │ ├── layout/
+│ │ │ │ ├── activity_main.xml
+│ │ │ │ ├── activity_pos.xml
+│ │ │ │ ├── activity_2.xml
+│ │ │ │ ├── activity_3.xml
+│ │ │ │ └── activity_4.xml
+│ │ │ └── values/
+│ │ │ └── styles.xml
+│ │ ├── AndroidManifest.xml
+├── build.gradle
+├── settings.gradle
+└── README.md
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+
+## Acknowledgements
+
+- Thanks to the Android developer community for their valuable resources and tutorials.
+
+
+
 
