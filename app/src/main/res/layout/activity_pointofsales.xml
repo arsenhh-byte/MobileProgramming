@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Item Milk -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk" />
+    <EditText
+        android:id="@+id/quantityMilk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/priceMilk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Price" />
+
+    <!-- Item Watch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch" />
+    <EditText
+        android:id="@+id/quantityWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/priceWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Price" />
+
+    <!-- Item Pen -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pen" />
+    <EditText
+        android:id="@+id/quantityPen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/pricePen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Price" />
+
+    <!-- Item Bread -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread" />
+    <EditText
+        android:id="@+id/quantityBread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity" />
+    <EditText
+        android:id="@+id/priceBread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit Price" />
+
+    <!-- Calculate Total and Apply Discount -->
+    <Button
+        android:id="@+id/calculateTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Grand Total" />
+    <Button
+        android:id="@+id/applyDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Discount 15%" />
+
+    <!-- Grand Total and Net Pay -->
+    <TextView
+        android:id="@+id/grandTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grand Total: $" />
+    <TextView
+        android:id="@+id/netPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net Pay: $" />
+</LinearLayout>
